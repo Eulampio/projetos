@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="alesan">
+    <file>imagem/woll.png</file>
+  </qresource>
+</RCC>

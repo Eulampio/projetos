@@ -1,0 +1,7 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/alesan/imagem">
+        <file>imagem/b36374ee2e63bf9a25acb156cc3651f0.jpg</file>
+        <file>imagem/woll.png</file>
+    </qresource>
+</RCC>

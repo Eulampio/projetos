@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1068</width>
+    <height>757</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(42, 83, 0);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::Shape::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Shadow::Raised</enum>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QTabWidget" name="cadastro_times">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(255, 255, 255);</string>
+         </property>
+         <property name="currentIndex">
+          <number>1</number>
+         </property>
+         <widget class="QWidget" name="cadastro_clie">
+          <attribute name="title">
+           <string>CADASTRO TIMES</string>
+          </attribute>
+          <layout class="QVBoxLayout" name="verticalLayout_4">
+           <item>
+            <widget class="QWidget" name="widget" native="true">
+             <layout class="QVBoxLayout" name="verticalLayout">
+              <item>
+               <widget class="QLineEdit" name="buscar_times">
+                <property name="placeholderText">
+                 <string>BUSCAR</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="times">
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="placeholderText">
+                 <string>TIMES</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="posicao_times">
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="placeholderText">
+                 <string>POSIÇÃO</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QLineEdit" name="gol_times">
+                <property name="text">
+                 <string/>
+                </property>
+                <property name="placeholderText">
+                 <string>GOLS</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QToolButton" name="salar_times">
+                <property name="text">
+                 <string>SALVAR</string>
+                </property>
+                <property name="popupMode">
+                 <enum>QToolButton::ToolButtonPopupMode::DelayedPopup</enum>
+                </property>
+                <property name="toolButtonStyle">
+                 <enum>Qt::ToolButtonStyle::ToolButtonIconOnly</enum>
+                </property>
+                <property name="autoRaise">
+                 <bool>false</bool>
+                </property>
+                <property name="arrowType">
+                 <enum>Qt::ArrowType::NoArrow</enum>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QToolButton" name="deletar_times">
+                <property name="text">
+                 <string>DELETAR</string>
+                </property>
+               </widget>
+              </item>
+             </layout>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+         <widget class="QWidget" name="tab_3">
+          <attribute name="title">
+           <string>TIMES</string>
+          </attribute>
+          <layout class="QGridLayout" name="gridLayout_2">
+           <item row="0" column="0">
+            <widget class="QWidget" name="widget_2" native="true">
+             <property name="styleSheet">
+              <string notr="true">self.tela_cadastro_de_times.setAlignment(Qt.AlignmentFlag.AlignCenter)
+</string>
+             </property>
+             <widget class="QTableWidget" name="tela_cadastro_de_times">
+              <property name="geometry">
+               <rect>
+                <x>350</x>
+                <y>110</y>
+                <width>331</width>
+                <height>391</height>
+               </rect>
+              </property>
+              <property name="styleSheet">
+               <string notr="true">self.tela_cadastro_de_times.setAlignment(Qt.AlignmentFlag.AlignCenter)
+</string>
+              </property>
+              <row/>
+              <row/>
+              <row/>
+              <row/>
+              <row/>
+              <row/>
+              <row/>
+              <row/>
+              <row/>
+              <row/>
+              <row/>
+              <row/>
+              <column>
+               <property name="text">
+                <string>TIMES</string>
+               </property>
+               <property name="font">
+                <font>
+                 <bold>false</bold>
+                </font>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>POSIÇÃO</string>
+               </property>
+              </column>
+              <column>
+               <property name="text">
+                <string>GOLS</string>
+               </property>
+               <property name="font">
+                <font>
+                 <bold>false</bold>
+                </font>
+               </property>
+              </column>
+              <item row="0" column="1">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="font">
+                <font>
+                 <fontweight>Thin</fontweight>
+                </font>
+               </property>
+              </item>
+              <item row="1" column="1">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="font">
+                <font>
+                 <fontweight>Thin</fontweight>
+                </font>
+               </property>
+              </item>
+              <item row="2" column="1">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="font">
+                <font>
+                 <fontweight>Thin</fontweight>
+                </font>
+               </property>
+              </item>
+              <item row="3" column="1">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="font">
+                <font>
+                 <fontweight>Thin</fontweight>
+                </font>
+               </property>
+              </item>
+              <item row="4" column="1">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="font">
+                <font>
+                 <fontweight>Thin</fontweight>
+                </font>
+               </property>
+              </item>
+              <item row="5" column="1">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="font">
+                <font>
+                 <fontweight>Thin</fontweight>
+                </font>
+               </property>
+              </item>
+              <item row="6" column="1">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="font">
+                <font>
+                 <fontweight>Thin</fontweight>
+                </font>
+               </property>
+              </item>
+              <item row="7" column="1">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="font">
+                <font>
+                 <fontweight>Thin</fontweight>
+                </font>
+               </property>
+              </item>
+              <item row="8" column="1">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="font">
+                <font>
+                 <fontweight>Thin</fontweight>
+                </font>
+               </property>
+              </item>
+              <item row="9" column="1">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="font">
+                <font>
+                 <fontweight>Thin</fontweight>
+                </font>
+               </property>
+              </item>
+              <item row="10" column="1">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="font">
+                <font>
+                 <fontweight>Thin</fontweight>
+                </font>
+               </property>
+              </item>
+              <item row="11" column="1">
+               <property name="text">
+                <string/>
+               </property>
+               <property name="font">
+                <font>
+                 <fontweight>Thin</fontweight>
+                </font>
+               </property>
+              </item>
+             </widget>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1068</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
