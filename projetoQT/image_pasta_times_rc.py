@@ -1,0 +1,53 @@
+# Resource object code (Python 3)
+# Created by: object code
+# Created by: The Resource Compiler for Qt version 6.8.2
+# WARNING! All changes made in this file will be lost!
+
+from PySide6 import QtCore
+
+qt_resource_data = b"\
+\x00\x00\x00\xb6\
+<\
+svg xmlns=\x22http:\
+//www.w3.org/200\
+0/svg\x22 height=\x222\
+4px\x22 viewBox=\x220 \
+-960 960 960\x22 wi\
+dth=\x2224px\x22 fill=\
+\x22#1f1f1f\x22><path \
+d=\x22M440-440H200v\
+-80h240v-240h80v\
+240h240v80H520v2\
+40h-80v-240Z\x22/><\
+/svg>\
+"
+
+qt_resource_name = b"\
+\x00\x05\
+\x00{\x03\xc3\
+\x00t\
+\x00i\x00m\x00e\x00s\
+\x00.\
+\x04y\xb1\x07\
+\x00a\
+\x00d\x00d\x00_\x002\x004\x00d\x00p\x00_\x001\x00F\x001\x00F\x001\x00F\x00_\x00F\
+\x00I\x00L\x00L\x000\x00_\x00w\x00g\x00h\x00t\x004\x000\x000\x00_\x00G\x00R\x00A\
+\x00D\x000\x00_\x00o\x00p\x00s\x00z\x002\x004\x00.\x00s\x00v\x00g\
+"
+
+qt_resource_struct = b"\
+\x00\x00\x00\x00\x00\x02\x00\x00\x00\x01\x00\x00\x00\x01\
+\x00\x00\x00\x00\x00\x00\x00\x00\
+\x00\x00\x00\x00\x00\x02\x00\x00\x00\x01\x00\x00\x00\x02\
+\x00\x00\x00\x00\x00\x00\x00\x00\
+\x00\x00\x00\x10\x00\x00\x00\x00\x00\x01\x00\x00\x00\x00\
+\x00\x00\x01\x95\x81\xe7\xbc\xb3\
+"
+
+def qInitResources():
+    QtCore.qRegisterResourceData(0x03, qt_resource_struct, qt_resource_name, qt_resource_data)
+
+def qCleanupResources():
+    QtCore.qUnregisterResourceData(0x03, qt_resource_struct, qt_resource_name, qt_resource_data)
+
+qInitResources()
